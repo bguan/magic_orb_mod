@@ -5,5 +5,5 @@ Minecraft Magic Orb Mod based on Forge 1.16.5
 ```
 gradle genEclipseRuns --refresh-dependencise
 gradle eclipse
-gradle run
+gradle runClient
 ```
