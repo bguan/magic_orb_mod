@@ -3,13 +3,13 @@ loaderVersion="[36,)"
 license="Apache License v2"
 
 [[mods]]
-modId="xmod"
-version="${file.jarVersion}"
-displayName="X Mod"
+modId="magic_orb_mod"
+version="0.1"
+displayName="Magic Orb Mod"
 credits="Thanks for this mod goes to Java, Minecraft and Forge"
-authors="X Mod Team"
+authors="Xminer Mod Team"
 description='''
-A blank Mod that can be the foundation of others.
+A Magic Orb.
 '''
 
 [[dependencies.xmod]]

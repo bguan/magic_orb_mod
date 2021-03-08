@@ -1,9 +1,15 @@
 # Magic Orb Mod
 Minecraft Magic Orb Mod based on Forge 1.16.5
 
-* After cloning, on command line, change to project directory, run
+ * After cloning, on command line, change to project directory...
+ * To generate eclipse launch files and gradle project settings, run:
+
 ```
 gradle genEclipseRuns --refresh-dependencise
 gradle eclipse
-gradle run
+```
+ * To launch minecraft with mod from commandline, run:
+
+```
+gradle runClient
 ```

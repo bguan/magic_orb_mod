@@ -15,8 +15,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '0.1'
-group = 'com.xminer.xmod'
-archivesBaseName = 'xmod'
+group = 'com.xminer.magic_orb'
+archivesBaseName = 'magic_orb'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' 
 
@@ -138,12 +138,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "xmod",
-            "Specification-Vendor": "xmod",
+            "Specification-Title": "magic_orb",
+            "Specification-Vendor": "xminer",
             "Specification-Version": "1", 
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"xmod",
+            "Implementation-Vendor" :"xminer",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

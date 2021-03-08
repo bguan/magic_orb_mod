@@ -1,0 +1,7 @@
+{
+	"parent": "forge:block/default",
+	"loader": "forge:obj",
+	"model": "magic_orb_mod:models/block/orb.obj",
+	"detectCullableFaces": false,
+	"flip-v": true
+}
